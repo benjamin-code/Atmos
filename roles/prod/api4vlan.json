@@ -1,0 +1,17 @@
+{
+  "name": "api4vlan",
+  "description": "",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[api4vlan-receiver-dist@0.2.1]",
+    "recipe[api4vlan-netconf@0.1.1]",
+    "recipe[api4vlan-web@0.1.4]"
+  ],
+  "env_run_lists": {
+  }
+}
