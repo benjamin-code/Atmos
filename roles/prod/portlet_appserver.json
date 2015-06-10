@@ -1,0 +1,24 @@
+{
+  "name": "portlet_appserver",
+  "description": "Portlet Appservers that run python apps",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[standard_server_setup]",
+    "recipe[vpc_portal_server]",
+    "recipe[apache-vpc]",
+    "recipe[ecs_python]",
+    "recipe[token-client]",
+    "recipe[token-service]",
+    "recipe[api4storage-web]",
+    "recipe[api4network-web]",
+    "recipe[api4publicip]",
+    "recipe[nagios_agent]"
+  ],
+  "env_run_lists": {
+  }
+}
