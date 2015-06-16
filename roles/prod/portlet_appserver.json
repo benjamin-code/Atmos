@@ -16,7 +16,7 @@
     "recipe[token-service@0.1.4]",        // Wang, Gang (Justin)
     "recipe[api4storage-web@0.5.3]",      // Jia, Wen-Qiang (Kevin)
     "recipe[api4network-web@1.1.7]",      // Chen, Bill
-    "recipe[api4publicip@0.4.1]",         // Yin, Kai (Kai)
+    "recipe[api4publicip@0.4.2]",         // Yin, Kai (Kai)
     "recipe[nagios_agent]"                // Gehrig, Ryan
   ],
   "env_run_lists": {
