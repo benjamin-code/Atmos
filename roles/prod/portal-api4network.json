@@ -1,0 +1,10 @@
+{
+  "name": "portal-api4network",
+  "run_list": [
+    "recipe[standard_server_setup]",
+    "recipe[createrepo]",
+    "role[MongoDB]",
+    "recipe[api4network-web]",
+    "recipe[api4publicip]"
+  ]
+}

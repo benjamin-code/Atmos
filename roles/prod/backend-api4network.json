@@ -1,0 +1,9 @@
+{
+  "name": "backend-api4network",
+  "run_list": [
+    "recipe[standard_server_setup]",
+    "recipe[api4network@1.8.1]",
+    "recipe[api4network-acl@1.8.0]",
+    "recipe[api4network-nat@1.8.0]"
+  ]
+}
