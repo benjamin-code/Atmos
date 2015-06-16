@@ -1,0 +1,16 @@
+{
+  "name": "mysql_server",
+  "description": "MySQL Server",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[standard_server_setup]",// Le, Mai
+    "recipe[mysql::atc-emong-default@0.1.1]" // Wang, Gang
+  ],
+  "env_run_lists": {
+  }
+}
