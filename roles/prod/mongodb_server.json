@@ -8,9 +8,10 @@
   },
   "chef_type": "role",
   "run_list": [
-    "recipe[standard_server_setup]",
-    "recipe[ecs_python]",
-    "recipe[mongodb@0.4.1]"
+    "recipe[standard_server_setup]",      // Le, Mai
+    "recipe[vpc_portal_server@0.2.1]",    // Lee, Morris
+    "recipe[ecs_python@4.0.0]",           // Lee, Morris
+    "recipe[mongodb@0.4.1]"               // Lee, Morris
   ],
   "env_run_lists": {
   }
