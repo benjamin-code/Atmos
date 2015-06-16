@@ -1,0 +1,8 @@
+{
+  "name": "hyper-v",
+  "description": "DC with hyper-V",
+  "run_list": [
+    "recipe[hyper-v]",
+    "recipe[hyperv_vm_storage]"
+  ]
+}

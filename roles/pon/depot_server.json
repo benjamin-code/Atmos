@@ -1,0 +1,32 @@
+{
+  "name": "depot_server",
+  "description": "Depot Server",
+  "default_attributes": {
+    "sync_config": {
+      "mos_server": "10.200.0.209",
+      "sync_user": "osimage",
+      "sync_group": "toolchain",
+      "repo_home": "/repo",
+      "staging_home": "/opt/mosinst/media/osistaging",
+      "tools_home": "/opt/mosinst/media/osistaging/repo/tools"
+    }
+  },
+  "override_attributes": {
+    "local_sync": {
+      "allow_local_sync": "maybe1"
+    },
+    "sync_config": {
+      "allow_local_copy": "maybe1"
+    },
+    "[sync_config][allow_local_copy]": "yes"
+  },
+  "run_list": [
+    "recipe[users::sysadmins]",
+    "recipe[depot_server]",
+    "recipe[spp]",
+    "recipe[sync_config]",
+    "recipe[gitsync]",
+    "recipe[buildvmdk]",
+    "recipe[data_bags]"
+  ]
+}

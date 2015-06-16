@@ -1,0 +1,12 @@
+{
+  "name": "hpsatool_server",
+  "description": "This control what should be deploy to all HPSA Tools Server",
+  "run_list": [
+      "recipe[standard_server_setup]",
+      "role[backend-api4network]",
+      "recipe[api4loadbalance]",
+      "recipe[hpom_add_node@0.5.0]",
+	    "recipe[nagios_agent]"
+  ]
+  
+}
