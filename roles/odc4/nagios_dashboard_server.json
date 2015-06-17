@@ -1,0 +1,10 @@
+{
+  "name": "nagios_dashboard",
+  "description": "Nagios Server with Global Dashboard",
+  "run_list": [
+    "recipe[standard_server_setup]",
+    "recipe[nagios_server]",
+    "recipe[nagios_agent]",
+    "recipe[nagios_dashboard]"
+  ]
+}

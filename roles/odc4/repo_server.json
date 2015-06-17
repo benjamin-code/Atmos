@@ -1,0 +1,18 @@
+{
+  "name": "repo_server",
+  "description": "Repository server that holds the repository files on its local drive",
+  "run_list": [
+    "recipe[users::sysadmins]",
+    "recipe[master_repo_server]"
+  ],
+  "env_run_lists": {
+    "prod": [
+      "recipe[users::sysadmins]",
+      "recipe[master_repo_server]"
+    ],
+    "test": [
+      "recipe[users::sysadmins]",
+      "recipe[master_repo_server]"
+    ]
+  }
+}
