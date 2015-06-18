@@ -12,5 +12,9 @@
     "recipe[mysql::atc-emong-default@0.1.1]" // Wang, Gang
   ],
   "env_run_lists": {
+    "prod": [
+      "recipe[standard_server_setup]",// Le, Mai
+      "recipe[mysql::atc-emong-default@0.1.1]" // Wang, Gang
+    ]
   }
 }

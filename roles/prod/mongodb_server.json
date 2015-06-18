@@ -12,5 +12,9 @@
     "recipe[mongodb@0.4.1]"
   ],
   "env_run_lists": {
+    "prod": [
+      "recipe[standard_server_setup]",
+      "recipe[mongodb@0.4.1]"
+    ]
   }
 }
