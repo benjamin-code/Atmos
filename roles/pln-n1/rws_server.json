@@ -1,0 +1,17 @@
+{
+  "name": "rws_server",
+  "description": "RWS Servers which run Jetty, Tomcat and Postgresql",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[standard_server_setup]",// Le, Mai
+    "recipe[rws-deploy]",// Gehrig, Ryan
+    "recipe[nagios_agent]"          // Gehrig, Ryan
+  ],
+  "env_run_lists": {
+  }
+}
