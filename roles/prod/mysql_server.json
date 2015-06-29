@@ -9,12 +9,12 @@
   "chef_type": "role",
   "run_list": [
     "recipe[standard_server_setup]",// Le, Mai
-    "recipe[mysql::atc-emong-default@0.1.1]" // Wang, Gang
+    "recipe[mysql@0.2.0]" // Wang, Gang
   ],
   "env_run_lists": {
     "prod": [
       "recipe[standard_server_setup]",// Le, Mai
-      "recipe[mysql::atc-emong-default@0.1.1]" // Wang, Gang
+      "recipe[mysql@0.2.0]" // Wang, Gang
     ]
   }
 }
