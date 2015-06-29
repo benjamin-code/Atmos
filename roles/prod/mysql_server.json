@@ -5,6 +5,12 @@
   "default_attributes": {
   },
   "override_attributes": {
+     "neo" : {
+        "mongodb" : {
+            "address_list" : "[ ( \"127.0.0.1\", 271017) ]",
+            "replicaset" : ""
+        }
+     }
   },
   "chef_type": "role",
   "run_list": [
