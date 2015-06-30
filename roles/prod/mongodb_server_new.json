@@ -9,15 +9,15 @@
   "chef_type": "role",
   "run_list": [
     "recipe[standard_server_setup]",
-    "recipe[vpc_portal_server]",
-    "recipe[ecs_python]",
+    "recipe[vpc_portal_server@0.2.2]",
+    "recipe[ecs_python@4.0.0]",
     "recipe[mongodb@0.4.1]"
   ],
   "env_run_lists": {
     "prod": [
       "recipe[standard_server_setup]",
-      "recipe[vpc_portal_server]",
-      "recipe[ecs_python]",
+      "recipe[vpc_portal_server@0.2.2]",
+      "recipe[ecs_python@4.0.0]",
       "recipe[mongodb@0.4.1]"
     ]
   }
