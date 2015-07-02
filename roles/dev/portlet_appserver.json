@@ -8,7 +8,6 @@
   },
   "chef_type": "role",
   "run_list": [
-    "recipe[standard_server_setup]",// Le, Mai
     "recipe[vpc_portal_server]",    // Lee, Morris
     "recipe[apache-vpc]",           // Lee, Morris
     "recipe[ecs_python]",           // Lee, Morris
@@ -16,8 +15,7 @@
     "recipe[token-service]",        // Wang, Gang (Justin)
     "recipe[api4storage-web]",      // Jia, Wen-Qiang (Kevin)
     "recipe[api4network-web]",      // Chen, Bill
-    "recipe[api4publicip]",         // Yin, Kai (Kai)
-    "recipe[nagios_agent]"          // Gehrig, Ryan
+    "recipe[api4publicip]"         // Yin, Kai (Kai)
   ],
   "env_run_lists": {
   }

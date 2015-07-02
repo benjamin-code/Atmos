@@ -8,7 +8,6 @@
   },
   "chef_type": "role",
   "run_list": [
-    "recipe[standard_server_setup]",
     "recipe[mongodb]"
   ],
   "env_run_lists": {
