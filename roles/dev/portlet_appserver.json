@@ -14,8 +14,7 @@
     "recipe[token-client]",         // Wang, Gang (Justin)
     "recipe[token-service]",        // Wang, Gang (Justin)
     "recipe[api4storage-web]",      // Jia, Wen-Qiang (Kevin)
-    "recipe[api4network-web]",      // Chen, Bill
-    "recipe[api4publicip]"         // Yin, Kai (Kai)
+    "recipe[api4network-web]"       // Chen, Bill
   ],
   "env_run_lists": {
   }
