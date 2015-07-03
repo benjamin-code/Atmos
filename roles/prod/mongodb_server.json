@@ -10,13 +10,13 @@
   "run_list": [
     "recipe[standard_server_setup]",
     "recipe[ecs_python@4.0.0]",
-    "recipe[mongodb@0.4.2]"
+    "recipe[mongodb@0.4.3]"
   ],
   "env_run_lists": {
     "prod": [
       "recipe[standard_server_setup]",
       "recipe[ecs_python@4.0.0]",
-      "recipe[mongodb@0.4.2]"
+      "recipe[mongodb@0.4.3]"
     ]
   }
 }
