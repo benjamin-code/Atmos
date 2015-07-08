@@ -3,8 +3,15 @@
   "description": "MongoDB Server",
   "json_class": "Chef::Role",
   "default_attributes": {
+    "mongodb" : {
+      "smallfiles" : true,
+      "nojournal" : true,
+      "oplogSize" : 50
+    }
   },
   "override_attributes": {
+
+
   },
   "chef_type": "role",
   "run_list": [
