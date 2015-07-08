@@ -8,6 +8,7 @@
   },
   "chef_type": "role",
   "run_list": [
+    "recipe[vpc_portal_server::add_repo]",
     "recipe[mysql]"
   ],
   "env_run_lists": {

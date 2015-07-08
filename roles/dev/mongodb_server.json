@@ -15,6 +15,7 @@
   },
   "chef_type": "role",
   "run_list": [
+    "recipe[vpc_portal_server::add_repo]",
     "recipe[ecs_python]",
     "recipe[mongodb]"
   ],
