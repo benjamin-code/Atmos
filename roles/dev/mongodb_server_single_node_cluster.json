@@ -1,0 +1,25 @@
+{
+  "name": "mongodb_server_single_node_cluster",
+  "description": "MongoDB Server (single node cluster)",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "mongodb" : {
+      "smallfiles" : true,
+      "nojournal" : true,
+      "oplogSize" : 50,
+      "single_node_cluster" : true
+    }
+  },
+  "override_attributes": {
+
+
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[vpc_portal_server::add_repo]",
+    "recipe[ecs_python]",
+    "recipe[mongodb]"
+  ],
+  "env_run_lists": {
+  }
+}
