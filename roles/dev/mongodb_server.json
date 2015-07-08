@@ -10,7 +10,7 @@
     }
   },
   "override_attributes": {
-
+     "single_node_cluster" : false
 
   },
   "chef_type": "role",

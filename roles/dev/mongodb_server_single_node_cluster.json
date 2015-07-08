@@ -6,12 +6,11 @@
     "mongodb" : {
       "smallfiles" : true,
       "nojournal" : true,
-      "oplogSize" : 50,
-      "single_node_cluster" : true
+      "oplogSize" : 50
     }
   },
   "override_attributes": {
-
+      "single_node_cluster" : true
 
   },
   "chef_type": "role",
