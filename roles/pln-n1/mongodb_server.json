@@ -8,8 +8,9 @@
   },
   "chef_type": "role",
   "run_list": [
-    "recipe[standard_server_setup]",// Le, Mai
-    "recipe[mongodb]"               // Lee, Morris
+    "recipe[standard_server_setup]", // Le, Mai
+    "recipe[ecs_python@4.0.0]",
+    "recipe[mongodb]"                // Lee, Morris
   ],
   "env_run_lists": {
   }

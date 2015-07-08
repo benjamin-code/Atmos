@@ -8,6 +8,7 @@
   },
   "chef_type": "role",
   "run_list": [
+    "recipe[ecs_python]",
     "recipe[mongodb]"
   ],
   "env_run_lists": {
