@@ -14,7 +14,7 @@
     "recipe[standard_server_setup]",      // Le, Mai
     "recipe[vpc_portal_server@0.2.2]",    // Lee, Morris
     "recipe[apache-vpc@0.4.0]",           // Lee, Morris
-    "recipe[ecs_python@4.0.0]",           // Lee, Morris
+    "recipe[ecs_python@4.0.1]",           // Lee, Morris
     "recipe[token-client@0.1.2]",         // Wang, Gang (Justin)
     "recipe[token-service@0.2.1]",        // Wang, Gang (Justin)
     "recipe[api4storage-web@0.5.4]",      // Jia, Wen-Qiang (Kevin)
@@ -26,7 +26,7 @@
       "recipe[standard_server_setup]",      // Le, Mai
       "recipe[vpc_portal_server@0.2.2]",    // Lee, Morris
       "recipe[apache-vpc@0.4.0]",           // Lee, Morris
-      "recipe[ecs_python@4.0.0]",           // Lee, Morris
+      "recipe[ecs_python@4.0.1]",           // Lee, Morris
       "recipe[token-client@0.1.2]",         // Wang, Gang (Justin)
       "recipe[token-service@0.2.1]",        // Wang, Gang (Justin)
       "recipe[api4storage-web@0.5.4]",      // Jia, Wen-Qiang (Kevin)
