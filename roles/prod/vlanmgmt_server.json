@@ -12,7 +12,7 @@
     "recipe[nagios_agent]",
     "recipe[api4vlan-receiver-dist@0.2.1]",
     "recipe[api4vlan-netconf@0.1.1]",
-    "recipe[api4vlan-web@0.1.7]"
+    "recipe[api4vlan-web@0.1.8]"
   ],
   "env_run_lists": {
   }
