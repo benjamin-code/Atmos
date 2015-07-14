@@ -1,12 +1,6 @@
 {
     "name": "env_setup",
     "description": "Onboarding enviroment setup",
-    "default_attributes": {
-        "sync_config": {
-            "repo_home": "/onboarding",
-            "staging_home": "/opt/onboarding"
-        }
-    },
     "run_list": [
         "recipe[onboarding_deploy_qa]"
     ]
