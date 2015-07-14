@@ -12,7 +12,7 @@
     "recipe[apache-vpc]",           // Lee, Morris
     "recipe[ecs_python]",           // Lee, Morris
     "recipe[token-client]",         // Wang, Gang (Justin)
-    "recipe[token-service@0.2.1]",        // Wang, Gang (Justin)
+    "recipe[token-service@0.2.0]",        // Wang, Gang (Justin)
     "recipe[api4storage-web]",      // Jia, Wen-Qiang (Kevin)
     "recipe[api4network-web]"       // Chen, Bill
   ],
