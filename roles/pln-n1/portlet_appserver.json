@@ -17,6 +17,7 @@
     "recipe[ecs_python]",           // Lee, Morris
     "recipe[token-client]",         // Wang, Gang (Justin)
     "recipe[token-service@0.2.0]",        // Wang, Gang (Justin)
+    "recipe[token-idm@0.1.0]",        // Wang, Gang (Justin)
     "recipe[api4storage-web]",      // Jia, Wen-Qiang (Kevin)
     "recipe[api4network-web@1.1.8]",      // Chen, Bill
     "recipe[nagios_agent]"          // Gehrig, Ryan
