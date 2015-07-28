@@ -3,6 +3,11 @@
   "description": "MySQL Server",
   "json_class": "Chef::Role",
   "default_attributes": {
+
+    "mysql": {
+        "failover":"manual",
+        "vip":"192.168.0.123"
+        }
   },
   "override_attributes": {
   },
