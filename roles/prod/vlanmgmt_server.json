@@ -10,10 +10,13 @@
   "run_list": [
     "recipe[standard_server_setup]",
     "recipe[nagios_agent]",
-    "recipe[api4vlan-receiver-dist@0.2.1]",
-    "recipe[api4vlan-netconf@0.1.1]"
-    // "recipe[api4vlan-web@0.1.8]"
-    // Removing until Dennis can make it so chef isnt managing the switches-meta.xml file
+    "recipe[ecs_python@2.7.8]",
+    "recipe[common4api@1.5.2]",
+    "recipe[api4vlan@0.1.4]",
+    "recipe[api4vlan-receiver-dist@1.1.2]",
+    "recipe[api4vlan-netconf@0.1.3]",
+    "recipe[api4vlan-web@0.2.0]",
+    "recipe[serverspec@1.0.0]"
   ],
   "env_run_lists": {
   }
