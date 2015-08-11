@@ -30,7 +30,7 @@
     "recipe[token-service@0.4.2]",        // Wang, Gang (Justin)
     "recipe[token-idm@0.1.0]",        // Wang, Gang (Justin)
     "recipe[api4storage-web@0.6.0]",      // Jia, Wen-Qiang (Kevin)
-    "recipe[api4network-web@1.1.7]",      // Chen, Bill
+    "recipe[api4network-web@1.1.8]",      // Chen, Bill
     "recipe[nagios_agent]"                // Gehrig, Ryan
   ],
   "env_run_lists": {
@@ -43,7 +43,7 @@
       "recipe[token-service@0.4.2]",        // Wang, Gang (Justin)
       "recipe[token-idm@0.1.0]",        // Wang, Gang (Justin)
       "recipe[api4storage-web@0.6.0]",      // Jia, Wen-Qiang (Kevin)
-      "recipe[api4network-web@1.1.7]",      // Chen, Bill
+      "recipe[api4network-web@1.1.8]",      // Chen, Bill
       "recipe[nagios_agent]"                // Gehrig, Ryan
      ]
   }
