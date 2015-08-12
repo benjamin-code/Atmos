@@ -1,0 +1,22 @@
+{
+  "name": "mongodb_server",
+  "description": "MongoDB Server - HA Cluster",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[standard_server_setup]",
+    "recipe[ecs_python@4.0.1]",
+    "recipe[mongodb@0.4.3]"
+  ],
+  "env_run_lists": {
+    "prod": [
+      "recipe[standard_server_setup]",
+      "recipe[ecs_python@4.0.1]",
+      "recipe[mongodb@0.4.3]"
+    ]
+  }
+}
