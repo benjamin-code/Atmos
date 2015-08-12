@@ -12,9 +12,5 @@
     "recipe[mysql@0.2.7]" // Wang, Gang
   ],
   "env_run_lists": {
-    "prod": [
-      "recipe[standard_server_setup]",// Le, Mai
-      "recipe[mysql@0.2.7]" // Wang, Gang
-    ]
   }
 }
