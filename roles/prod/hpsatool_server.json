@@ -13,7 +13,8 @@
       "recipe[api4firewall@1.0.0]",
       "recipe[api4firewall-acl@1.0.0]",
       "recipe[api4firewall-nat@1.0.0]",
-      "recipe[api4firewall-client@0.1.0]"
+      "recipe[api4firewall-client@0.1.0]",
+      "recipe[serverspec@1.0.0]"
   ]
   
 }
