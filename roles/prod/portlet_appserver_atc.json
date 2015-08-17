@@ -17,7 +17,7 @@
           "mysql": {
             "ip": "atc-cr-mongodb1.ecs-core.ssn.hp.com"
             }
-        
+
         }
   },
   "chef_type": "role",
@@ -30,8 +30,7 @@
     "recipe[token-service@0.4.2]",        // Wang, Gang (Justin)
     "recipe[token-idm@0.1.0]",        // Wang, Gang (Justin)
     "recipe[api4storage-web@0.7.0]",      // Jia, Wen-Qiang (Kevin)
-    "recipe[api4network-web@1.1.8]",      // Chen, Bill
-    "recipe[nagios_agent]"                // Gehrig, Ryan
+    "recipe[api4network-web@1.1.8]"      // Chen, Bill
   ],
   "env_run_lists": {
     "prod": [
@@ -43,8 +42,7 @@
       "recipe[token-service@0.4.2]",        // Wang, Gang (Justin)
       "recipe[token-idm@0.1.0]",        // Wang, Gang (Justin)
       "recipe[api4storage-web@0.7.0]",      // Jia, Wen-Qiang (Kevin)
-      "recipe[api4network-web@1.1.8]",      // Chen, Bill
-      "recipe[nagios_agent]"                // Gehrig, Ryan
+      "recipe[api4network-web@1.1.8]"      // Chen, Bill
      ]
   }
 }
