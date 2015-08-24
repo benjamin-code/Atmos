@@ -1,7 +1,0 @@
-{
-    "name": "env_setup",
-    "description": "Onboarding enviroment setup",
-    "run_list": [
-        "recipe[onboarding_deploy_qa]"
-    ]
-}}
