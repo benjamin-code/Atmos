@@ -10,18 +10,11 @@
       "recipe[common4api@1.5.2]",
       "recipe[api4loadbalance@0.2.1]",
       "recipe[api4loadbalance-client@0.1.0]",
-<<<<<<< HEAD
       "recipe[api4firewall@1.0.1]",
       "recipe[api4firewall-acl@1.0.1]",
       "recipe[api4firewall-nat@1.0.1]",
-      "recipe[api4firewall-client@0.1.0]"
-=======
-      "recipe[api4firewall@1.0.0]",
-      "recipe[api4firewall-acl@1.0.0]",
-      "recipe[api4firewall-nat@1.0.0]",
-      "recipe[api4firewall-client@0.1.0]",
+      "recipe[api4firewall-client@0.1.0]" 
       "recipe[serverspec@1.0.0]"
->>>>>>> 470d870db230e3b84faef315900365baa4a62520
   ]
   
 }
