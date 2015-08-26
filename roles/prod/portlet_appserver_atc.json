@@ -7,6 +7,17 @@
   "override_attributes": {
       "mysql": {
         "ip": "atc-cr-mongodb1.ecs-core.ssn.hp.com"
+        },
+        "token":{
+          "mysql": {
+            "ip": "atc-cr-mongodb1.ecs-core.ssn.hp.com"
+            }
+        },
+        "tokenidm":{
+          "mysql": {
+            "ip": "atc-cr-mongodb1.ecs-core.ssn.hp.com"
+            }
+
         }
   },
   "chef_type": "role",
@@ -16,10 +27,10 @@
     "recipe[vpc_portal_server@0.2.4]",    // Lee, Morris
     "recipe[ecs_python@4.0.1]",           // Lee, Morris
     "recipe[token-client@0.1.2]",         // Wang, Gang (Justin)
-    "recipe[token-service@0.2.1]",        // Wang, Gang (Justin)
-    "recipe[api4storage-web@0.6.0]",      // Jia, Wen-Qiang (Kevin)
-    "recipe[api4network-web@1.1.7]",      // Chen, Bill
-    "recipe[nagios_agent]"                // Gehrig, Ryan
+    "recipe[token-service@0.4.2]",        // Wang, Gang (Justin)
+    "recipe[token-idm@0.1.0]",        // Wang, Gang (Justin)
+    "recipe[api4storage-web@0.7.0]",      // Jia, Wen-Qiang (Kevin)
+    "recipe[api4network-web@1.1.8]"      // Chen, Bill
   ],
   "env_run_lists": {
     "prod": [
@@ -28,10 +39,10 @@
       "recipe[vpc_portal_server@0.2.4]",    // Lee, Morris
       "recipe[ecs_python@4.0.1]",           // Lee, Morris
       "recipe[token-client@0.1.2]",         // Wang, Gang (Justin)
-      "recipe[token-service@0.2.1]",        // Wang, Gang (Justin)
-      "recipe[api4storage-web@0.6.0]",      // Jia, Wen-Qiang (Kevin)
-      "recipe[api4network-web@1.1.7]",      // Chen, Bill
-      "recipe[nagios_agent]"                // Gehrig, Ryan
+      "recipe[token-service@0.4.2]",        // Wang, Gang (Justin)
+      "recipe[token-idm@0.1.0]",        // Wang, Gang (Justin)
+      "recipe[api4storage-web@0.7.0]",      // Jia, Wen-Qiang (Kevin)
+      "recipe[api4network-web@1.1.8]"      // Chen, Bill
      ]
   }
 }

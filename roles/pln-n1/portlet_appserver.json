@@ -7,20 +7,29 @@
   "override_attributes": {
     "mysql":{
         "ip":"pln-cd1-iweb3.core.eslabs.ssn.hp.com"
+    },
+    "token":{
+        "mysql":{
+            "ip":"pln-cd1-iweb3.core.eslabs.ssn.hp.com"
+        }
+    },
+    "tokenidm":{
+        "mysql":{
+            "ip":"pln-cd1-iweb3.core.eslabs.ssn.hp.com"
+        }
     }
   },
   "chef_type": "role",
   "run_list": [
     "recipe[standard_server_setup]",// Le, Mai
-    "recipe[apache-vpc]",           // Lee, Morris
     "recipe[vpc_portal_server]",    // Lee, Morris
+    "recipe[apache-vpc]",           // Lee, Morris
     "recipe[ecs_python]",           // Lee, Morris
     "recipe[token-client]",         // Wang, Gang (Justin)
     "recipe[token-service]",        // Wang, Gang (Justin)
-    "recipe[token-idm]",        // Wang, Gang (Justin)
+    "recipe[token-idm]",            // Wang, Gang (Justin)
     "recipe[api4storage-web]",      // Jia, Wen-Qiang (Kevin)
-    "recipe[api4network-web@1.1.8]",      // Chen, Bill
-    "recipe[nagios_agent]"          // Gehrig, Ryan
+    "recipe[api4network-web@1.1.8]" // Chen, Bill
   ],
   "env_run_lists": {
   }
