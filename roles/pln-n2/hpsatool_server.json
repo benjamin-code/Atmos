@@ -5,8 +5,9 @@
       "recipe[standard_server_setup]",
       "role[backend-api4network]",
       "recipe[api4loadbalance]",
-      "recipe[hpom_add_node@0.6.0]",
-	    "recipe[nagios_agent]"
+      "recipe[hpom_add_node@0.7.0]",
+	   "recipe[nagios_agent]"
+       
   ]
   
 }
