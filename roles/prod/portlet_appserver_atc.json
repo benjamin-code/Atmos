@@ -5,20 +5,6 @@
   "default_attributes": {
   },
   "override_attributes": {
-      "mysql": {
-        "ip": "atc-cr-mongodb1.ecs-core.ssn.hp.com"
-        },
-        "token":{
-          "mysql": {
-            "ip": "atc-cr-mongodb1.ecs-core.ssn.hp.com"
-            }
-        },
-        "tokenidm":{
-          "mysql": {
-            "ip": "atc-cr-mongodb1.ecs-core.ssn.hp.com"
-            }
-
-        }
   },
   "chef_type": "role",
   "run_list": [
