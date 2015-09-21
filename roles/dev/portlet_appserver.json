@@ -8,6 +8,7 @@
   },
   "chef_type": "role",
   "run_list": [
+    "recipe[standard_server_setup::add_databag_secret]",
     "recipe[vpc_portal_server::add_repo]",  // only needed for dev environment
     "recipe[vpc_portal_server]",    // Lee, Morris
     "recipe[apache-vpc]",           // Lee, Morris

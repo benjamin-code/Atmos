@@ -7,7 +7,8 @@
   "override_attributes": {
   },
   "chef_type": "role",
-  "run_list": [    
+  "run_list": [
+    "recipe[standard_server_setup::add_databag_secret]",
     "recipe[memcached]"
   ],
   "env_run_lists": {
