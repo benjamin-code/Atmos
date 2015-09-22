@@ -9,7 +9,7 @@
   "chef_type": "role",
   "run_list": [
     "recipe[standard_server_setup]",      // Le, Mai
-    "recipe[vpc_portal_server@0.2.5]",    // Lee, Morris
+    "recipe[vpc_portal_server@0.2.6]",    // Lee, Morris
     "recipe[apache-vpc@0.4.2]",           // Lee, Morris
     "recipe[ecs_python@4.0.1]",           // Lee, Morris
     "recipe[token-client@0.1.3]",         // Wang, Gang (Justin)
@@ -24,7 +24,7 @@
   "env_run_lists": {
     "prod": [
       "recipe[standard_server_setup]",      // Le, Mai
-      "recipe[vpc_portal_server@0.2.5]",    // Lee, Morris
+      "recipe[vpc_portal_server@0.2.6]",    // Lee, Morris
       "recipe[apache-vpc@0.4.2]",           // Lee, Morris
       "recipe[ecs_python@4.0.1]",           // Lee, Morris
       "recipe[token-client@0.1.3]",         // Wang, Gang (Justin)
