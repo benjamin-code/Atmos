@@ -1,0 +1,20 @@
+{
+  "name": "mysql_server_expansion",
+  "description": "MySQL Server in new core ",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[standard_server_setup]",// Le, Mai
+    "recipe[mysql@0.3.2]" // Wang, Gang
+  ],
+  "env_run_lists": {
+    "prod": [
+      "recipe[standard_server_setup]",// Le, Mai
+      "recipe[mysql@0.3.2]" // Wang, Gang
+    ]
+  }
+}
