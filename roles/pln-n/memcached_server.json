@@ -7,9 +7,12 @@
   "override_attributes": {
   },
   "chef_type": "role",
-  "run_list": [
+  "run_list": [    
     "recipe[memcached@0.1.0]"
   ],
   "env_run_lists": {
+  	"prod": [
+      "recipe[memcached@0.1.0]"
+    ]
   }
 }

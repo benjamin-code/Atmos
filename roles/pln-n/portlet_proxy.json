@@ -1,0 +1,17 @@
+{
+  "name": "portlet_proxy",
+  "description": "Portlet Proxy servers to pass traffic to Portlet Appservers",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[standard_server_setup]",
+    "recipe[portlet_proxy]",
+    "recipe[nagios_agent]"
+  ],
+  "env_run_lists": {
+  }
+}
