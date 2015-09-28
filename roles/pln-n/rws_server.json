@@ -9,7 +9,7 @@
   "chef_type": "role",
   "run_list": [
     "recipe[standard_server_setup]", // Le, Mai
-    "recipe[rws-deploy@0.1.0]", // Gehrig, Ryan
+    "recipe[rws-deploy@0.2.0]", // Gehrig, Ryan
     "recipe[nagios_agent]"          // Le, Mai
   ],
   "env_run_lists": {
