@@ -9,7 +9,7 @@
   "chef_type": "role",
   "run_list": [
     "recipe[standard_server_setup]",// Le, Mai
-    "recipe[token-ldap]" // Wang, Gang
+    "recipe[token-ldap@0.1.0]" // Wang, Gang
   ],
   "env_run_lists": {
   }
