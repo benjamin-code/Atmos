@@ -8,7 +8,7 @@
   },
   "chef_type": "role",
   "run_list": [
-    "recipe[mcollective::server@0.1.0]",// Gehrig, Ryan
+    "recipe[mcollective::server@0.1.0]"// Gehrig, Ryan
   ],
   "env_run_lists": {
   }
