@@ -1,0 +1,15 @@
+{
+  "name": "mcollective_slave",
+  "description": "Puppet Marionette Collective: Mcollective Slaves (mcollective server)",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[mcollective::server@0.1.0]",// Gehrig, Ryan
+  ],
+  "env_run_lists": {
+  }
+}
