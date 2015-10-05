@@ -1,0 +1,12 @@
+{
+  "name": "mediarepo_server",
+  "description": "media repo server",
+  "run_list": [
+    "recipe[users::sysadmins]",
+    "recipe[server_standard_setup]",
+    "recipe[mediarepo_server]",
+    "recipe[conductor_deploy]",
+    "recipe[postinstall_deploy]"
+  ]
+  }
+}
