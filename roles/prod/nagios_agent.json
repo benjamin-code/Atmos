@@ -3,6 +3,6 @@
   "description": "Nagios Agent",
   "run_list": [
     "recipe[standard_server_setup]",
-    "recipe[nagios_agent]"
+    "recipe[nagios_agent@0.1.3]"
   ]
 }
