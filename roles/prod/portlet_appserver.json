@@ -15,7 +15,7 @@
     "recipe[token-client@0.1.3]",         // Wang, Gang (Justin)
     "recipe[token-service@0.5.1]",        // Wang, Gang (Justin)
     "recipe[token-idm@0.2.1]",            // Wang, Gang (Justin)
-    "recipe[api4storage-web@0.10.0]",     // Jia, Wen-Qiang (Kevin)
+    "recipe[api4storage-web@0.11.0]",     // Jia, Wen-Qiang (Kevin)
     "recipe[api4network-web@1.1.9]",      // Chen, Bill
     "recipe[common4api@1.5.3]",           // Dai, yanmiao
     "recipe[api4ipam@1.0.0]",             // Dai, yanmiao
@@ -30,7 +30,7 @@
       "recipe[token-client@0.1.3]",         // Wang, Gang (Justin)
       "recipe[token-service@0.5.1]",        // Wang, Gang (Justin)
       "recipe[token-idm@0.2.1]",            // Wang, Gang (Justin)
-      "recipe[api4storage-web@0.10.0]",     // Jia, Wen-Qiang (Kevin)
+      "recipe[api4storage-web@0.11.0]",     // Jia, Wen-Qiang (Kevin)
       "recipe[api4network-web@1.1.9]",      // Chen, Bill
       "recipe[common4api@1.5.3]",           // Dai, yanmiao
       "recipe[api4ipam@1.0.0]",             // Dai, yanmiao
