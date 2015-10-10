@@ -1,0 +1,16 @@
+{
+  "name": "glusterfs-client",
+  "description": "glusterfs client",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[standard_server_setup]",
+    "recipe[glusterfs-client@1.1.2]"
+  ],
+  "env_run_lists": {
+  }
+}
