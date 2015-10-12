@@ -17,7 +17,7 @@
     "recipe[token-idm@0.2.2]",            // Wang, Gang (Justin)
     "recipe[api4storage-web]",      // Jia, Wen-Qiang (Kevin)
     "recipe[api4network-web@1.1.9]",      // Chen, Bill
-	  "recipe[api4ipam@1.0.1]",       // Dai, yanmiao
+	"recipe[api4ipam@1.0.1]",       // Dai, yanmiao
     "recipe[serverspec@1.0.0]"      // Dai, yanmiao
   ],
   "env_run_lists": {
