@@ -9,7 +9,7 @@
   "chef_type": "role",
   "run_list": [
     "recipe[standard_server_setup]",
-    "recipe[portlet_proxy]",
+    "recipe[portlet_proxy@0.1.3]",   // deployed from apigateway branch, will merge to master and remove version constraint after 10/26 deploy
     "recipe[nagios_agent]"
   ],
   "env_run_lists": {
