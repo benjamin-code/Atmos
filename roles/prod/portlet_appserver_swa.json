@@ -1,0 +1,17 @@
+{
+  "name": "portlet_appserver_swa",
+  "description": "Portlet Appservers that run python apps in Suwanee, eventually will go away and just use portlet_appserver",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "role[portlet_appserver_core]",
+    "recipe[api4storage-web@0.14.0]",     // Jia, Wen-Qiang (Kevin)
+    "recipe[api4network-web@1.1.9]",      // Chen, Bill
+  ],
+  "env_run_lists": {
+  }
+}
