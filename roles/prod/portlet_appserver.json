@@ -8,10 +8,7 @@
   },
   "chef_type": "role",
   "run_list": [
-    "recipe[standard_server_setup]",      // Le, Mai
-    "recipe[vpc_portal_server@0.2.7]",    // Lee, Morris
-    "recipe[apache-vpc@0.4.2]",           // Lee, Morris
-    "recipe[ecs_python@4.0.1]",           // Lee, Morris
+    "role[portlet_appserver_core]",
     "recipe[token-client@0.1.3]",         // Wang, Gang (Justin)
     "recipe[token-service@0.5.2]",        // Wang, Gang (Justin)
     "recipe[token-idm@0.2.2]",            // Wang, Gang (Justin)
