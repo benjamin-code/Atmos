@@ -10,7 +10,7 @@
   "run_list": [
     "role[portlet_appserver_core]",
     "recipe[api4storage-web@0.14.0]",     // Jia, Wen-Qiang (Kevin)
-    "recipe[api4network-web@1.1.9]",      // Chen, Bill
+    "recipe[api4network-web@1.1.9]"       // Chen, Bill
   ],
   "env_run_lists": {
   }
