@@ -1,6 +1,6 @@
 {
-  "name": "portlet_appserver_atc",
-  "description": "Portlet Appservers that run python apps in QRS Core Expansion",
+  "name": "portlet_appserver_core",
+  "description": "Core cookbooks for Portlet Appservers",
   "json_class": "Chef::Role",
   "default_attributes": {
   },
