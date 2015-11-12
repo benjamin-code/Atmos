@@ -8,7 +8,7 @@
   },
   "chef_type": "role",
   "run_list": [    
-    "recipe[memcached@0.1.0]"
+    "recipe[memcached@0.1.1]"
   ],
   "env_run_lists": {
   }
