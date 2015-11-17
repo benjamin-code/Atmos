@@ -1,6 +1,6 @@
 {
-  "name": "glusterfs-client",
-  "description": "glusterfs client",
+  "name": "glusterfs-server",
+  "description": "glusterfs server",
   "json_class": "Chef::Role",
   "default_attributes": {
   },
@@ -9,8 +9,10 @@
   "chef_type": "role",
   "run_list": [
     "recipe[standard_server_setup]",
-    "recipe[glusterfs-client@1.1.5]"
+    "recipe[glusterfs-server@1.2.7]"
   ],
   "env_run_lists": {
+  	"recipe[standard_server_setup]",
+    "recipe[glusterfs-server@1.1.5]"
   }
 }
