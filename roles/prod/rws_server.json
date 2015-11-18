@@ -8,9 +8,10 @@
   },
   "chef_type": "role",
   "run_list": [
-    "recipe[standard_server_setup]", // Le, Mai
-    "recipe[rws-deploy@0.3.0]",      // Gehrig, Ryan
-    "role[nagios_agent]"             // Le, Mai
+    "recipe[standard_server_setup]",// Le, Mai
+    "recipe[rws-deploy@0.4.0]",// Gehrig, Ryan
+    "recipe[nagios_agent]",// Xu, Ke-Jun (Daniel) <ke-jun.xu@hpe.com>
+    "recipe[serverspec@1.0.0]"
   ],
   "env_run_lists": {
   }
