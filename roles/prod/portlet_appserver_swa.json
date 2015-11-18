@@ -10,7 +10,7 @@
   "run_list": [
     "role[portlet_appserver_core]",
     "recipe[token-client@0.1.3]",         // Wang, Gang (Justin)
-    "recipe[api4storage-web@0.14.0]",     // Jia, Wen-Qiang (Kevin)
+    "recipe[api4storage-web@0.15.0]",     // Jia, Wen-Qiang (Kevin)
     "recipe[api4network-web@1.2.0]"       // Chen, Bill
   ],
   "env_run_lists": {
