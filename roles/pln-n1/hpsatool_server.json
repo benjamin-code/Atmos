@@ -7,7 +7,6 @@
       "recipe[hpom_add_node@0.7.0]",
       "recipe[nagios_agent]",
       "recipe[hpsatool_deploy@0.4.0]",
-      "recipe[ecs_python@2.7.8]",
       "recipe[ecs_python_backend@1.0.0]",
       "recipe[common4api@1.5.9]",
       "recipe[api4loadbalance@0.2.4]",
