@@ -9,8 +9,7 @@
   "chef_type": "role",
   "run_list": [
     "recipe[standard_server_setup]",
-    "recipe[portlet_proxy]",
-    "recipe[nagios_agent]"
+    "recipe[portlet_proxy]"
   ],
   "env_run_lists": {
   }
