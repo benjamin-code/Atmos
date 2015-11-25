@@ -1,0 +1,9 @@
+{
+  "name": "orchestra_server",
+  "description": "orchestra server",
+  "run_list": [
+    "recipe[standard_server_setup]",
+    "recipe[conductor_deploy]",
+    "recipe[postinstall_deploy]"
+  ]
+}
