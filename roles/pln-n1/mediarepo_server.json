@@ -9,5 +9,4 @@
     "recipe[postinstall_deploy]",
     "recipe[vm_automation_deploy]"
   ]
-  }
 }

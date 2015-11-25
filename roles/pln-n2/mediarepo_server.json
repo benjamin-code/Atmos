@@ -8,5 +8,4 @@
     "recipe[conductor_deploy]",
     "recipe[postinstall_deploy]"
   ]
-  }
 }
