@@ -13,7 +13,7 @@
     "recipe[token-service@0.6.0]",        // Wang, Gang (Justin)
     "recipe[token-idm@0.3.0]",            // Wang, Gang (Justin)
     "recipe[api4storage-web@0.15.0]",     // Jia, Wen-Qiang (Kevin)
-    "recipe[api4network-web@1.2.0]",      // Chen, Bill
+    "recipe[api4network-web@1.2.1]",      // Chen, Bill
     "recipe[api4ipam@1.0.1]",             // Dai, yanmiao
     "recipe[serverspec@1.0.0]"            // Dai, yanmiao
   ],
