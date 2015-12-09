@@ -1,6 +1,6 @@
 {
-  "name": "hmcapi_server",
-  "description": "HMC API appservers",
+  "name": "hmcapi_proxy",
+  "description": "HMC API Proxy Servers",
   "json_class": "Chef::Role",
   "default_attributes": {
   },
