@@ -1,6 +1,6 @@
 {
-  "name": "glusterfs-server",
-  "description": "glusterfs server",
+  "name": "chef_server",
+  "description": "Private Chef Master HA systems",
   "json_class": "Chef::Role",
   "default_attributes": {
   },
@@ -8,8 +8,7 @@
   },
   "chef_type": "role",
   "run_list": [
-    "recipe[standard_server_setup]",
-    "recipe[glusterfs-server@1.3.0]"
+    "recipe[chef_server]"// Gehrig, Ryan
   ],
   "env_run_lists": {
   }
