@@ -4,6 +4,6 @@
   "run_list": [
     "recipe[standard_server_setup]",
     "recipe[nagios_agent@0.1.3]",
-    "recipe[nagios_server@0.1.6]"
+    "recipe[nagios_server@0.1.8]"
   ]
 }
