@@ -1,0 +1,18 @@
+{
+  "name": "irim_appserver",
+  "description": "Core Cookbooks for IRIM API",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[ecs_python]",   // Lee, Morris
+    "recipe[apache-vpc]",   // Lee, Morris
+    "recipe[irim]"          // Limas, Jorge
+  ],
+  "env_run_lists": {
+  }
+}
+
