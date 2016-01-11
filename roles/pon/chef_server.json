@@ -8,7 +8,9 @@
   },
   "chef_type": "role",
   "run_list": [
-    "recipe[chef_server]"// Gehrig, Ryan
+    "recipe[standard_server_setup]",// Le, Mai
+    "recipe[chef_server@0.1.0]",// Gehrig, Ryan
+    "recipe[nagios_agent]"//Daniel
   ],
   "env_run_lists": {
   }
