@@ -3,6 +3,7 @@
   "description": "orchestra server",
   "run_list": [
     "recipe[standard_server_setup]",
+    "recipe[provision-broker]",
     "recipe[conductor_deploy]",
     "recipe[postinstall_deploy]"
   ]
