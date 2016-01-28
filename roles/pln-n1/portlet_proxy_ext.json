@@ -1,0 +1,17 @@
+{
+  "name": "portlet_proxy_ext",
+  "description": "External Portlet Proxy servers to pass traffic to Portlet Appservers",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[standard_server_setup]",
+    "recipe[portlet_proxy]",
+    "recipe[vpc_portal_server::nginx_setup]"
+  ],
+  "env_run_lists": {
+  }
+}

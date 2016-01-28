@@ -1,6 +1,6 @@
 {
-  "name": "portlet_proxy",
-  "description": "Portlet Proxy servers to pass traffic to Portlet Appservers",
+  "name": "portlet_proxy_int",
+  "description": "Internal Portlet Proxy servers to pass traffic to Portlet Appservers",
   "json_class": "Chef::Role",
   "default_attributes": {
   },
