@@ -8,11 +8,11 @@
   },
   "chef_type": "role",
   "run_list": [
-    "recipe[portlet_proxy]",
-    "recipe[portlet_proxy::install_token]",
-    "recipe[portlet_proxy::install_ipam]",
-    "recipe[portlet_proxy::install_apigateway]",
-    "recipe[vpc_portal_server::nginx_setup]"
+    "recipe[portlet_proxy@0.1.7]",
+    "recipe[portlet_proxy::install_token@0.1.7]",
+    "recipe[portlet_proxy::install_ipam@0.1.7]",
+    "recipe[portlet_proxy::install_apigateway@0.1.7]",
+    "recipe[vpc_portal_server::nginx_setup@0.2.9]"
   ],
   "env_run_lists": {
   }
