@@ -10,10 +10,10 @@
   "run_list": [
     "recipe[standard_server_setup]",
     "recipe[portlet_proxy@0.1.7]",
-    "recipe[portlet_proxy::install_token0.1.7]",
-    "recipe[portlet_proxy::install_ipam0.1.7]",
-    "recipe[portlet_proxy::install_apigateway0.1.7]",
-    "recipe[vpc_portal_server::nginx_setup0.2.9]"
+    "recipe[portlet_proxy::install_token@0.1.7]",
+    "recipe[portlet_proxy::install_ipam@0.1.7]",
+    "recipe[portlet_proxy::install_apigateway@0.1.7]",
+    "recipe[vpc_portal_server::nginx_setup@0.2.9]"
   ],
   "env_run_lists": {
   }
