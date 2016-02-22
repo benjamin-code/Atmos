@@ -8,11 +8,11 @@
   },
   "chef_type": "role",
   "run_list": [
-    "recipe[propel_nginx::nginx_prod_demo]"
+    "recipe[propel_nginx::nginx_prod_demo@1.0.0]"
   ],
   "env_run_lists": {
     "prod": [
-      "recipe[propel_nginx::nginx_prod_demo]"
+      "recipe[propel_nginx::nginx_prod_demo@1.0.0]"
     ]
   }
 }
