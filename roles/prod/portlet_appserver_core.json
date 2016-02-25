@@ -11,7 +11,7 @@
     "recipe[standard_server_setup]",      // Le, Mai
     "recipe[ecs_python@4.0.1]",           // Lee, Morris
     "recipe[apache-vpc@0.4.2]",           // Lee, Morris
-    "recipe[vpc_portal_server@0.2.8]"     // Lee, Morris
+    "recipe[vpc_portal_server@0.3.0]"     // Lee, Morris
   ],
   "env_run_lists": {
   }
