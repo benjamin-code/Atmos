@@ -10,6 +10,7 @@
   "run_list": [
     "recipe[standard_server_setup]",// Le, Mai
     "recipe[hmc-api@0.10.0]",// Gehrig, Ryan
+    "recipe[irim@1.0.7]",// Limas, Jorge <jorge.limas@hpe.com>
     "recipe[nagios_agent]",// Xu, Ke-Jun (Daniel) <ke-jun.xu@hpe.com>
     "recipe[serverspec@1.0.0]"
   ],
