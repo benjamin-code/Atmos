@@ -8,6 +8,8 @@
     "recipe[provision-broker]",
     "recipe[conductor_deploy]",
     "recipe[postinstall_deploy]",
-    "recipe[vm_automation_deploy]"
+    "recipe[vm_automation_deploy]",
+    "recipe[os_workflows]",
+    "recipe[ima_deploy]"
   ]
 }
