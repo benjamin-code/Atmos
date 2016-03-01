@@ -10,7 +10,7 @@
   "run_list": [
     "recipe[standard_server_setup]",
     "recipe[portlet_proxy@0.1.7]",
-    "recipe[vpc_portal_server::nginx_setup@0.2.9]"
+    "recipe[vpc_portal_server::nginx_setup@0.3.1]"
   ],
   "env_run_lists": {
   }
