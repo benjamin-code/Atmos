@@ -1,0 +1,24 @@
+{
+  "name": "propel_ha_ui",
+  "description": "propel ui node in prod HA",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[propel_nginx::nginx_idm@1.0.0]", 
+    "recipe[propel_postgres::install_postgres@1.0.0]", 
+    "recipe[propel_ha::propel_ui@1.0.1]",
+    "recipe[propel_ha::deploy_ui@1.0.1]"
+  ],
+  "env_run_lists": {
+    "prod": [
+      "recipe[propel_nginx::nginx_idm@1.0.0]", 
+      "recipe[propel_postgres::install_postgres@1.0.0]", 
+      "recipe[propel_ha::propel_ui@1.0.1]",
+      "recipe[propel_ha::deploy_ui@1.0.1]"          	
+    ]
+  }
+}
