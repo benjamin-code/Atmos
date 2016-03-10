@@ -9,7 +9,7 @@
   "chef_type": "role",
   "run_list": [
     "recipe[standard_server_setup]",// Le, Mai
-    "recipe[rws-deploy@0.12.0]",// Gehrig, Ryan
+    "recipe[rws-deploy@0.13.0]",// Gehrig, Ryan
     "recipe[nagios_agent]",// Xu, Ke-Jun (Daniel) <ke-jun.xu@hpe.com>
     "recipe[serverspec@1.0.0]"
   ],
