@@ -9,8 +9,5 @@
   "chef_type": "role",
   "run_list": [
     "recipe[glusterfs-client@1.1.7]"
-  ],
-  "env_run_lists": {
-    "recipe[glusterfs-client@1.1.7]"
-  }
+  ]
 }
