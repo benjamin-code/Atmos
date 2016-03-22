@@ -3,7 +3,7 @@
   "description": "Nagios Server without Global Dashboard",
   "run_list": [
     "recipe[standard_server_setup]",
-    "recipe[nagios_agent@0.1.3]",
-    "recipe[nagios_server@0.1.8]"
+    "recipe[nagios_agent@0.1.7]",
+    "recipe[nagios_server@0.1.11]"
   ]
 }

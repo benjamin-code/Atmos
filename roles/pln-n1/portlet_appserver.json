@@ -14,7 +14,7 @@
     "recipe[token-idm@0.5.1]",            // Wang, Gang (Justin)
     "recipe[api4storage-web]",      // Jia, Wen-Qiang (Kevin)
     "recipe[api4network-web]",      // Chen, Bill
-	  "recipe[api4ipam@1.0.1]",       // Dai, yanmiao
+	  "recipe[api4ipam@1.0.4]",       // Dai, yanmiao
     "recipe[serverspec@1.0.0]",           // Dai, yanmiao
     "recipe[onboarding-portal]" // mark.warren@hpe.com
   ],

@@ -2,17 +2,7 @@
   "name": "glusterfs-server",
   "description": "glusterfs server",
   "json_class": "Chef::Role",
-  "default_attributes": {
-  },
-  "override_attributes": {
-  },
-  "chef_type": "role",
   "run_list": [
-    "recipe[standard_server_setup]",
-    "recipe[glusterfs-server@1.3.0]"
-  ],
-  "env_run_lists": {
-  	"recipe[standard_server_setup]",
-    "recipe[glusterfs-server@1.3.0]"
-  }
+    "recipe[glusterfs-server@1.4.1]"
+  ]
 }
