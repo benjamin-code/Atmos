@@ -1,6 +1,6 @@
 {
-  "name": "glusterfs-server",
-  "description": "glusterfs server",
+  "name": "jbilling_proxy",
+  "description": "jBilling Proxy Servers",
   "json_class": "Chef::Role",
   "default_attributes": {
   },
@@ -8,8 +8,7 @@
   },
   "chef_type": "role",
   "run_list": [
-    "recipe[standard_server_setup]",
-    "recipe[glusterfs-server]"
+    "recipe[jbilling::proxy]"
   ],
   "env_run_lists": {
   }

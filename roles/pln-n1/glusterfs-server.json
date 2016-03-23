@@ -8,7 +8,7 @@
   },
   "chef_type": "role",
   "run_list": [
-    "recipe[glusterfs-server@1.4.0]"
+    "recipe[glusterfs-server@1.4.1]"
   ],
   "env_run_lists": {
   }

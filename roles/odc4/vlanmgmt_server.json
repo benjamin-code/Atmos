@@ -10,9 +10,16 @@
   "run_list": [
     "recipe[standard_server_setup]",
     "recipe[nagios_agent]",
-    "recipe[api4vlan-receiver-dist@0.2.1]",
-    "recipe[api4vlan-netconf@0.1.1]",
-    "recipe[api4vlan-web@0.1.4]"
+    "recipe[ecs_python_backend@1.0.0]",
+    "recipe[common4api@1.5.9]",
+    "recipe[api4vlan@0.1.5]",
+    "recipe[api4vlan-snmp-dist@0.1.0]",
+    "recipe[api4vlan-common@0.2.0]",
+    "recipe[api4vlan-client@1.1.0]",
+    "recipe[api4vlan-receiver-dist@1.2.0]",
+    "recipe[api4vlan-netconf@1.2.1]",
+    "recipe[api4vlan-web@1.2.1]",
+    "recipe[serverspec@1.0.0]"
   ],
   "env_run_lists": {
   }
