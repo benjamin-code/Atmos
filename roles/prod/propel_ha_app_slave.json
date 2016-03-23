@@ -8,29 +8,29 @@
   },
   "chef_type": "role",
   "run_list": [
-    "recipe[propel_ha::iptables_app@1.0.1]",
-    "recipe[propel_rabbitmq@1.0.0]",
-    "recipe[propel_oo::install_propel_oo_cluster@1.0.0]",
-    "recipe[propel_postgres::install_postgres@1.0.0]",
-    "recipe[propel_ha::propel_app@1.0.1]",
-    "recipe[propel_rabbitmq::rabbitmq_cfg@1.0.0]",
-  	"recipe[propel_ha::deploy_idm_service@1.0.1]",
-  	"recipe[propel_ha::deploy_apiservice@1.0.1]",
-  	"recipe[propel_ha::deploy_adapter_content@1.0.1]",
-  	"recipe[propel_ha::reset_password@1.0.1]"    
+    "recipe[propel_ha::iptables_app@1.1.0]",
+    "recipe[propel_rabbitmq@1.1.0]",
+    "recipe[propel_oo::install_propel_oo_cluster@1.1.0]",
+    "recipe[propel_postgres::install_postgres@1.1.0]",
+    "recipe[propel_ha::propel_app@1.1.0]",
+    "recipe[propel_rabbitmq::rabbitmq_cfg@1.1.0]",
+  	"recipe[propel_ha::deploy_idm_service@1.1.0]",
+  	"recipe[propel_ha::deploy_apiservice@1.1.0]",
+  	"recipe[propel_ha::deploy_adapter_content@1.1.0]",
+  	"recipe[propel_ha::reset_password@1.1.0]"    
   ],
   "env_run_lists": {
     "prod": [
-      "recipe[propel_ha::iptables_app@1.0.1]",
-      "recipe[propel_rabbitmq@1.0.0]",
-      "recipe[propel_oo::install_propel_oo_cluster@1.0.0]",
-      "recipe[propel_postgres::install_postgres@1.0.0]",
-      "recipe[propel_ha::propel_app@1.0.1]",
-      "recipe[propel_rabbitmq::rabbitmq_cfg@1.0.0]",
-  	  "recipe[propel_ha::deploy_idm_service@1.0.1]",
-  	  "recipe[propel_ha::deploy_apiservice@1.0.1]",
-  	  "recipe[propel_ha::deploy_adapter_content@1.0.1]",
-  	  "recipe[propel_ha::reset_password@1.0.1]"       
+      "recipe[propel_ha::iptables_app@1.1.0]",
+      "recipe[propel_rabbitmq@1.1.0]",
+      "recipe[propel_oo::install_propel_oo_cluster@1.1.0]",
+      "recipe[propel_postgres::install_postgres@1.1.0]",
+      "recipe[propel_ha::propel_app@1.1.0]",
+      "recipe[propel_rabbitmq::rabbitmq_cfg@1.1.0]",
+  	  "recipe[propel_ha::deploy_idm_service@1.1.0]",
+  	  "recipe[propel_ha::deploy_apiservice@1.1.0]",
+  	  "recipe[propel_ha::deploy_adapter_content@1.1.0]",
+  	  "recipe[propel_ha::reset_password@1.1.0]"       
     ]
   }
 }
