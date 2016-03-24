@@ -8,15 +8,9 @@
   },
   "chef_type": "role",
   "run_list": [
-    "recipe[propel_postgres@1.1.0]",
-    "recipe[propel_postgres::restore_api_service_db@1.1.0]",
-    "recipe[propel_postgres::restore_hos_mgmt_db@1.1.0]"
   ],
   "env_run_lists": {
     "prod": [
-      "recipe[propel_postgres@1.1.0]",
-      "recipe[propel_postgres::restore_api_service_db@1.1.0]",
-      "recipe[propel_postgres::restore_hos_mgmt_db@1.1.0]"
     ]
   }
 }
