@@ -1,0 +1,17 @@
+{
+  "name": "jbilling_appserver",
+  "description": "jBilling Application Server",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[jbilling::setuser@0.4.9]",
+    "recipe[jbilling::tomcat@0.4.9]",
+    "recipe[jbilling::deploy_jbilling@0.4.9]"
+  ],
+  "env_run_lists": {
+  }
+}

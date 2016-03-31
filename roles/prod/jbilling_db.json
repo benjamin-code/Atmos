@@ -1,0 +1,15 @@
+{
+  "name": "jbilling_db",
+  "description": "jBilling DB Server",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[jbilling::import_data@0.4.9]"
+  ],
+  "env_run_lists": {
+  }
+}
