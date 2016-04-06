@@ -8,9 +8,9 @@
   },
   "chef_type": "role",
   "run_list": [
-    "recipe[jbilling::setuser@0.5.2]",
-    "recipe[jbilling::tomcat@0.5.2]",
-    "recipe[jbilling::deploy_jbilling@0.5.2]"
+    "recipe[jbilling::setuser@0.5.4]",
+    "recipe[jbilling::tomcat@0.5.4]",
+    "recipe[jbilling::deploy_jbilling@0.5.4]"
   ],
   "env_run_lists": {
   }
