@@ -5,6 +5,9 @@
   "default_attributes": {
   },
   "override_attributes": {
+		"keystone": {
+			"token_expiration": 360000
+		}
   },
   "chef_type": "role",
   "run_list": [
