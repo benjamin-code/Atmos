@@ -3,9 +3,17 @@
   "description": "This control what should be deploy to all HPSA Tools Server",
   "run_list": [
       "recipe[standard_server_setup]",
-      "recipe[hpom_add_node@0.7.0]",
-      "recipe[nagios_agent]",
-      "recipe[hpsatool_deploy@0.4.0]"
+      "recipe[hpom_add_node@0.7.1]",
+      "role[nagios_agent]",
+      "recipe[hpsatool_deploy@0.6.2]",
+      "recipe[ecs_python_backend@1.0.0]",
+      "recipe[common4api@1.5.9]",
+      "recipe[api4loadbalance@0.2.4]",
+      "recipe[api4loadbalance-client@0.1.0]",
+      "recipe[api4firewall@1.1.3]",
+      "recipe[api4firewall-acl@1.1.3]",
+      "recipe[api4firewall-nat@1.1.3]",
+      "recipe[api4firewall-client@0.1.0]",
+      "recipe[serverspec@1.0.0]"
   ]
-  
 }
