@@ -14,7 +14,7 @@
     "recipe[portlet_proxy::install_ipam@0.1.7]",
     "recipe[portlet_proxy::install_apigateway@0.1.7]",
     "recipe[vpc_portal_server::nginx_setup@0.3.1]",
-	"recipe[portlet_proxy::update_niginx_jbilling@0.1.9]"
+	"recipe[portlet_proxy::install_jbilling@0.2.0]"
   ],
   "env_run_lists": {
   }
