@@ -24,8 +24,8 @@
     "recipe[users::sysadmins]",
     "recipe[depot_server]",
     "recipe[spp]",
-    "recipe[sync_config]",
-    "recipe[gitsync@8.0.3]",
+    "recipe[sync_config@8.0.3]",
+    "recipe[gitsync]",
     "recipe[buildvmdk]",
     "recipe[data_bags]"
   ]
