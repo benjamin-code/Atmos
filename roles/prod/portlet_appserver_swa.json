@@ -13,6 +13,7 @@
     "recipe[api4storage-web@0.17.0]",     // Jia, Wen-Qiang (Kevin)
     "recipe[api4network-web@1.3.0]",      // Chen, Bill
     "recipe[api4ipam@1.0.4]",             // Dai, yanmiao
+    "recipe[onboarding-portal@0.2.8]",    // Mark Warren mark.warren@hp.com
     "recipe[serverspec@1.0.0]"            // Dai, yanmiao
   ],
   "env_run_lists": {

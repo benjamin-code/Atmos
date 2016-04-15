@@ -13,8 +13,7 @@
     "recipe[portlet_proxy::install_token]",
     "recipe[portlet_proxy::install_ipam]",
     "recipe[portlet_proxy::install_apigateway]",
-    "recipe[vpc_portal_server::nginx_setup]",
-	"recipe[portlet_proxy::install_jbilling]"
+    "recipe[vpc_portal_server::nginx_setup]"
   ],
   "env_run_lists": {
   }
