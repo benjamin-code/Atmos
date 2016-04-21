@@ -8,6 +8,6 @@
   },
   "chef_type": "role",
   "run_list": [
-    "recipe[glusterfs-client@1.1.8]"
+    "recipe[glusterfs-client@1.2.0]"
   ]
 }
