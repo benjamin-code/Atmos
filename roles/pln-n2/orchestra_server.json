@@ -5,6 +5,7 @@
     "recipe[standard_server_setup]",
     "recipe[provision-broker]",
     "recipe[conductor_deploy]",
-    "recipe[postinstall_deploy]"
+    "recipe[postinstall_deploy]",
+    "recipe[os_certification]"
   ]
 }
