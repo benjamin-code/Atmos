@@ -25,7 +25,7 @@
     "recipe[depot_server]",
     "recipe[spp]",
     "recipe[sync_config@8.0.4]",
-    "recipe[gitsync]",
+    "recipe[gitsync@0.2.1]",
     "recipe[buildvmdk]",
     "recipe[data_bags]"
   ]
