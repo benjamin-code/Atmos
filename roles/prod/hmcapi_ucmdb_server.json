@@ -1,0 +1,16 @@
+{
+  "name": "hmcapi_ucmdb_server",
+  "description": "HMC uCMDB Servers",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[irim::ucmdb_server_install@1.0.17]",// Limas, Jorge <jorge.limas@hpe.com>
+  ],
+  "env_run_lists": {
+  }
+}
+
