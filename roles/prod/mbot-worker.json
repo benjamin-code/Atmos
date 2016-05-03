@@ -1,0 +1,15 @@
+{
+  "name": "mbot-worker",
+  "description": "role for mbot-worker",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[mbot::worker@1.0.0]"
+  ],
+  "env_run_lists": {
+  }
+}
