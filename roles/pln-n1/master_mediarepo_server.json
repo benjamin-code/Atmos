@@ -4,11 +4,11 @@
   "run_list": [
     "recipe[users::sysadmins]",
     "recipe[standard_server_setup]",
-    "recipe[master_mediarepo_server]",
-    "recipe[conductor_deploy]",
-    "recipe[provision-broker]",
+    "recipe[master_mediarepo_server@0.1.0]",
+    "recipe[conductor_deploy@0.1.0]",
+    "recipe[provision-broker@1.0.0]",
     "recipe[os_workflows]",
-    "recipe[ima_deploy]",
+    "recipe[ima_deploy@0.1.0]",
     "recipe[glance_image_mapping]"
   ]
 }
