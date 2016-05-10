@@ -3,16 +3,16 @@
   "description": "Repository server that holds the repository files on its local drive",
   "run_list": [
     "recipe[users::sysadmins]",
-    "recipe[master_repo_server]"
+    "recipe[master_repo_server@0.3.0]"
   ],
   "env_run_lists": {
     "prod": [
       "recipe[users::sysadmins]",
-      "recipe[master_repo_server]"
+      "recipe[master_repo_server@0.3.0]"
     ],
     "test": [
       "recipe[users::sysadmins]",
-      "recipe[master_repo_server]"
+      "recipe[master_repo_server@0.3.0]"
     ]
   }
 }

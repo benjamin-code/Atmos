@@ -4,13 +4,14 @@
   "run_list": [
     "recipe[users::sysadmins]",
     "recipe[standard_server_setup]",
-    "recipe[mediarepo_server]",
-    "recipe[provision-broker]",
-    "recipe[conductor_deploy]",
-    "recipe[postinstall_deploy]",
-    "recipe[vm_automation_deploy]",
+    "recipe[mediarepo_server@0.1.0]",
+    "recipe[conductor_deploy@0.1.1]",
+    "recipe[provision-broker@1.0.0]",
+    "recipe[postinstall_deploy@0.1.1]",
+    "recipe[vm_automation_deploy@0.1.1]",
     "recipe[os_workflows]",
-    "recipe[ima_deploy]",
-    "recipe[glance_image_mapping]"
+    "recipe[ima_deploy@0.1.0]",
+    "recipe[glance_image_mapping]",
+    "recipe[os_certification@0.1.0]"
   ]
 }

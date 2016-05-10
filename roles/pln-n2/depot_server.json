@@ -23,8 +23,7 @@
   "run_list": [
     "recipe[users::sysadmins]",
     "recipe[depot_server]",
-    "recipe[spp]",
-    "recipe[sync_config]",
+    "recipe[sync_config@8.0.5]",
     "recipe[gitsync]",
     "recipe[buildvmdk]",
     "recipe[data_bags]"

@@ -8,17 +8,13 @@
   },
   "chef_type": "role",
   "run_list": [
-    "recipe[propel_nginx::nginx_idm@1.1.0]", 
-    "recipe[propel_postgres::install_postgres@1.1.0]", 
-    "recipe[propel_ha::propel_ui@1.1.0]",
-    "recipe[propel_ha::deploy_ui@1.1.0]"
+    "recipe[propel_nginx::nginx_idm@1.1.3]", 
+    "recipe[propel_ha::deploy_ui@1.1.2]"
   ],
   "env_run_lists": {
     "prod": [
-      "recipe[propel_nginx::nginx_idm@1.1.0]", 
-      "recipe[propel_postgres::install_postgres@1.1.0]", 
-      "recipe[propel_ha::propel_ui@1.1.0]",
-      "recipe[propel_ha::deploy_ui@1.1.0]"          	
+      "recipe[propel_nginx::nginx_idm@1.1.3]", 
+      "recipe[propel_ha::deploy_ui@1.1.2]"          
     ]
   }
 }

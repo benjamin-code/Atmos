@@ -21,12 +21,10 @@
     "[sync_config][allow_local_copy]": "yes"
   },
   "run_list": [
-    "recipe[users::sysadmins]",
     "recipe[depot_server]",
     "recipe[spp]",
-    "recipe[sync_config]",
-    "recipe[gitsync]",
-    "recipe[buildvmdk]",
-    "recipe[data_bags]"
+    "recipe[sync_config@8.0.5]",
+    "recipe[gitsync@0.2.1]",
+    "recipe[buildvmdk]"
   ]
 }

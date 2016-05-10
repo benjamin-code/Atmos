@@ -3,7 +3,7 @@
   "description": "This control what should be deploy to all HPSA Tools Server",
   "run_list": [
       "recipe[standard_server_setup]",
-      "recipe[hpom_add_node@0.7.0]",
-      "recipe[hpsatool_deploy@0.4.0]"
+      "recipe[hpom_add_node@0.7.1]",
+      "recipe[hpsatool_deploy@0.6.2]"
   ]
 }

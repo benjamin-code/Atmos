@@ -1,0 +1,15 @@
+{
+  "name": "mbot-core",
+  "description": "role for mbot-core",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[mbot::core@1.0.0]"
+  ],
+  "env_run_lists": {
+  }
+}

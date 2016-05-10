@@ -1,0 +1,20 @@
+{
+  "name": "portlet_proxy_int",
+  "description": "Internal Portlet Proxy servers to pass traffic to Portlet Appservers",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[standard_server_setup]",
+    "recipe[portlet_proxy]",
+    "recipe[portlet_proxy::install_token]",
+    "recipe[portlet_proxy::install_ipam]",
+    //"recipe[portlet_proxy::install_apigateway]", //comment out as currently for Tulsa we don't have apigw nodes from Liem yet
+    "recipe[vpc_portal_server::nginx_setup]"
+  ],
+  "env_run_lists": {
+  }
+}
