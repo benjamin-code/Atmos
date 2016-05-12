@@ -5,7 +5,7 @@
       "recipe[standard_server_setup]",
       "recipe[hpom_add_node]",
 	  "recipe[nagios_agent]",
-	  "recipe[hpsatool_deploy@0.7.1]",
+	  "recipe[hpsatool_deploy@0.8.0]",
       "recipe[ecs_python_backend@1.0.0]",
       "recipe[common4api@1.5.9]",
       "recipe[api4loadbalance@0.2.4]",
