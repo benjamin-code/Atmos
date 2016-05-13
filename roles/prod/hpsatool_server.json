@@ -8,7 +8,7 @@
       "recipe[hpsatool_deploy@0.7.1]",
       "recipe[ecs_python_backend@1.0.0]",
       "recipe[common4api@1.5.9]",
-      "recipe[api4loadbalance@0.2.4]",
+      "recipe[api4loadbalance@0.2.5]",
       "recipe[api4loadbalance-client@0.1.0]",
       "recipe[api4firewall@1.1.5]",
       "recipe[api4firewall-acl@1.1.5]",

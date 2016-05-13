@@ -4,7 +4,7 @@
   "run_list": [
       "recipe[standard_server_setup]",
       "role[backend-api4network]",
-      "recipe[api4loadbalance]",
+      "recipe[api4loadbalance@0.2.5]",
       "recipe[hpom_add_node@0.7.0]",
       "recipe[hpsatool_deploy@0.5.0]",
 	    "recipe[nagios_agent]"
