@@ -7,7 +7,10 @@
   "override_attributes": {
 		"keystone": {
 			"token_expiration": 360000
-		}
+		},
+        "tokenapp": {
+            "env_alias":"env1"
+        }
   },
   "chef_type": "role",
   "run_list": [
