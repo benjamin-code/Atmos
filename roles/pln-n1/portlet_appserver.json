@@ -15,9 +15,9 @@
   "chef_type": "role",
   "run_list": [
     "role[portlet_appserver_core]",
-    "recipe[token-client@0.1.3]",         // Wang, Gang (Justin)
-    "recipe[token-service@0.8.0]",        // Wang, Gang (Justin)
-    "recipe[token-idm@0.6.0]",            // Wang, Gang (Justin)
+    "recipe[token-client]",         // Wang, Gang (Justin)
+    "recipe[token-service]",        // Wang, Gang (Justin)
+    "recipe[token-idm]",            // Wang, Gang (Justin)
     "recipe[api4storage-web]",            // Jia, Wen-Qiang (Kevin)
     "recipe[api4network-web]",            // Chen, Bill
 	  "recipe[api4ipam]",                   // Dai, yanmiao
