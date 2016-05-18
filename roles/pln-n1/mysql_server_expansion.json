@@ -9,12 +9,12 @@
   "chef_type": "role",
   "run_list": [
     "recipe[standard_server_setup]",// Le, Mai
-    "recipe[mysql@0.4.2]" // Tu,Baohui
+    "recipe[mysql]" // Tu,Baohui
   ],
   "env_run_lists": {
     "prod": [
       "recipe[standard_server_setup]",// Le, Mai
-      "recipe[mysql@0.4.2]" // Tu,Baohui
+      "recipe[mysql]" // Tu,Baohui
     ]
   }
 }
