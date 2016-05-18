@@ -9,6 +9,6 @@
     "recipe[provision-broker@1.0.0]",
     "recipe[os_workflows]",
     "recipe[ima_deploy@0.1.0]",
-    "recipe[glance_image_mapping]"
+    "recipe[glance_image_mapping]",
   ]
 }
