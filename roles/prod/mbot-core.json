@@ -8,7 +8,7 @@
   },
   "chef_type": "role",
   "run_list": [
-    "recipe[mbot::core@1.0.0]"
+    "recipe[mbot-core@0.2.0]"
   ],
   "env_run_lists": {
   }
