@@ -1,0 +1,15 @@
+{
+  "name": "propel_image_service",
+  "description": "propel image service for propel HA",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[image-service@0.1.0]"
+  ],
+  "env_run_lists": {
+  }
+}
