@@ -3,6 +3,6 @@
   "description": "glusterfs server",
   "json_class": "Chef::Role",
   "run_list": [
-    "recipe[glusterfs-server@1.4.3]"
+    "recipe[glusterfs-server@1.4.4]"
   ]
 }
