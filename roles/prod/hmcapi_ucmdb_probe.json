@@ -8,7 +8,7 @@
   },
   "chef_type": "role",
   "run_list": [
-    "recipe[irim::ucmdb_probe_install@1.0.17]",// Limas, Jorge <jorge.limas@hpe.com>
+    "recipe[irim::ucmdb_probe_install@1.0.18]",// Limas, Jorge <jorge.limas@hpe.com>
   ],
   "env_run_lists": {
   }
