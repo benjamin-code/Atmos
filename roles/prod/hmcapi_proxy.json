@@ -9,8 +9,8 @@
   "chef_type": "role",
   "run_list": [
     "recipe[standard_server_setup]",// Le, Mai
-    "recipe[hmc-api::standard@0.3.0]",// Gehrig, Ryan
-    "recipe[hmc-api::proxy@0.3.0]",// Gehrig, Ryan
+    "recipe[hmc-api::standard@0.16.1]",// Gehrig, Ryan
+    "recipe[hmc-api::proxy@0.16.1]",// Gehrig, Ryan
     "recipe[nagios_agent]",// Xu, Ke-Jun (Daniel) <ke-jun.xu@hpe.com>
     "recipe[serverspec@1.0.0]"
   ],
